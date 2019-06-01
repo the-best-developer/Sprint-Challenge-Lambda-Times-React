@@ -19,8 +19,9 @@ const HeaderDiv= styled.div`
     }
   }
 `;
+
 const HeaderH1 = styled.h1`
-font-size: 60px;
+  font-size: 60px;
   font-family: Didot, serif;
   font-weight: bold;
   flex: 8;
@@ -29,21 +30,25 @@ font-size: 60px;
 `;
 
 const HeaderSpan = styled.span`
-align-self: flex-end;
+  align-self: flex-end;
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 1px;
 `;
 
 const HeaderDate = styled.span`
-margin-left: 25px;
+  margin-left: 25px;
   flex: 1;
+
+  ${HeaderSpan}
 `;
 
 const HeaderTemp = styled.span`
-text-align: right;
+  text-align: right;
   margin-right: 25px;
   flex: 1;
+
+  ${HeaderSpan}
 `;
 
 // Refactor this component to use styled components and not classNames. 
