@@ -51,7 +51,7 @@ const TopBarContainerCenter = styled.div`
   font-size: 9px;
 `;
 
-const TopBarContainerCenterSpan = styled.span`
+const Span = styled.span`
   cursor: pointer;
   margin-right: 5%;
 
@@ -89,11 +89,11 @@ const TopBar = () => {
           <TopBarContainerLeftSpan>TOPICS</TopBarContainerLeftSpan><TopBarContainerLeftSpan>SEARCH</TopBarContainerLeftSpan>
         </TopBarContainerLeft>
         <TopBarContainerCenter>
-          <TopBarContainerCenterSpan>GENERAL</TopBarContainerCenterSpan>
-          <TopBarContainerCenterSpan>BROWNBAG</TopBarContainerCenterSpan>
-          <TopBarContainerCenterSpan>RANDOM</TopBarContainerCenterSpan>
-          <TopBarContainerCenterSpan>MUSIC</TopBarContainerCenterSpan>
-          <TopBarContainerCenterSpan>ANNOUNCEMENTS</TopBarContainerCenterSpan>
+          <Span>GENERAL</Span>
+          <Span>BROWNBAG</Span>
+          <Span>RANDOM</Span>
+          <Span>MUSIC</Span>
+          <Span>ANNOUNCEMENTS</Span>
         </TopBarContainerCenter>
         <TopBarContainerRight>
           <TopBarContainerRightSpan>LOG IN</TopBarContainerRightSpan>
