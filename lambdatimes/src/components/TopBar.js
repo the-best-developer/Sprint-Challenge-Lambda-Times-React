@@ -52,30 +52,30 @@ const TopBarContainerCenter = styled.div`
 `;
 
 const TopBarContainerCenterSpan = styled.span`
-cursor: pointer;
-margin-right: 5%;
+  cursor: pointer;
+  margin-right: 5%;
 
-&:last-child {
-  margin-right: 0;
-}
+  &:last-child {
+    margin-right: 0;
+  }
 
-&:hover {
-  text-decoration: underline;
-}
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const TopBarContainerRight = styled.div`
-display: flex;
-justify-content: flex-end;
-align-items: center;
-flex-direction: row;
-flex: 1;
-font-size: 11px;
-font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  font-size: 11px;
+  font-weight: bold;
 `;
 
 const TopBarContainerRightSpan= styled.span`
-cursor: pointer;
+  cursor: pointer;
 `;
 
 // Refactor this component to use styled components and not classNames. 
